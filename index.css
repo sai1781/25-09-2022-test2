@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -64,7 +65,7 @@ input:focus {
   padding: 0px;
 }
 button {
-  height: 2rem;
+  height: 2.5rem;
   width: 9rem;
   border-radius: 25px;
   border: 1.5px solid #e1e1e1;
@@ -137,7 +138,7 @@ hr {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 7rem;
+  padding-top: 9rem;
   overflow-y: auto;
 }
 .Right_Page > hr {
@@ -153,4 +154,9 @@ h6,
 span,
 button {
   font-family: "Nunito", sans-serif;
+}
+.Right_Page > h2 {
+  font-size: medium;
+  font-family: "Nunito Sans", sans-serif;
+  width: 70%;
 }
